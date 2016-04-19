@@ -17,6 +17,7 @@ $(".nav .dropdown").hover(function() {
 });
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
+$("#pledgername").focus();
 /*
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
