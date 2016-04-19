@@ -76,7 +76,7 @@ h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: "gotham-rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -222,8 +222,8 @@ a:focus {
     }
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255, 255, 255, .3);
-        background: #000;
+        /*border-bottom: 1px solid rgba(255, 255, 255, .3);
+        */background: #000;
     }
 }
 
@@ -699,7 +699,10 @@ body {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff
+    border: 7px solid #fff;
+    width: 80%;
+    max-width: 280px;
+
 }
 
 .team-member h4 {
@@ -725,7 +728,6 @@ body {
     margin: 20px auto;
     width: 80%;
     font-size: 3em;
-    padding: 1% 5%;
     text-align: center;
     color: #362b45;
     border: 0px;
