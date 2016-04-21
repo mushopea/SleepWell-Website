@@ -223,7 +223,8 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         /*border-bottom: 1px solid rgba(255, 255, 255, .3);
-        */background: #000;
+        */
+        background: #000;
     }
 }
 
@@ -702,7 +703,6 @@ body {
     border: 7px solid #fff;
     width: 80%;
     max-width: 280px;
-
 }
 
 .team-member h4 {
@@ -809,4 +809,13 @@ body {
 
 .display-inline {
     display: inline-block;
+}
+
+.give-me-padding {
+    padding: 10% 0;
+}
+
+.full-image-plz img {
+    width: 90%;
+    margin: 0 auto;
 }
