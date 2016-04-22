@@ -893,9 +893,34 @@ body {
     padding: 2em 0;
 }
 
+.contact-row {
+    text-align: left;
+}
+
+.contact-row a {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.contact-row i {
+    margin-right: 10px;
+}
+.contact-row p {
+    margin: 1em 0;
+}
+
+.contact-heading {
+    font: 1.2em "gotham-rounded";
+    font-weight: 300;
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
 
 @media(min-width:768px) {
+    .contact-heading {
 
+        margin-top: 1em;
+    }
     .give-me-padding {
         padding: 10% 0;
     }
