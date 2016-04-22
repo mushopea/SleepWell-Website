@@ -86,21 +86,15 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
 
-    .small-text {
-        font-size: 1em;
-    }
-
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
+.give-me-padding {
+    padding: 20% 0;
 }
 
+
+
 a {
-    color: #42dca3;
+    color: #0083EF;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -109,7 +103,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #005CA8;
 }
 
 .light {
@@ -700,13 +694,13 @@ body {
 
 .team-member {
     text-align: center;
-    margin-bottom: 50px
 }
 
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
     width: 80%;
+    box-shadow: 3px 5px 1px #F0F2F7;
     max-width: 280px;
 }
 
@@ -816,10 +810,6 @@ body {
     display: inline-block;
 }
 
-.give-me-padding {
-    padding: 10% 0;
-}
-
 .top-margin {
     margin-top: 2em;
 }
@@ -839,4 +829,63 @@ body {
 
 .small-icon {
     max-width: 72px;
+}
+
+.read-more-link {
+    color: #0083EF;
+    border-bottom: 2px solid  #eee;
+    text-decoration: none;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.names {
+    font-weight: 500;
+    text-transform: none;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-family: "gotham-rounded";
+    font-size: 1.2em;
+}
+
+.text-muted {
+    text-transform: uppercase;
+    font-family: "gotham-rounded";
+    letter-spacing: 0.2em;
+    margin-bottom: 1em;
+}
+
+.quote {
+    color: #6A6A6D;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.footer {
+    padding: 1em 0;
+}
+
+
+@media(min-width:768px) {
+
+    .give-me-padding {
+        padding: 10% 0;
+    }
+
+    .small-text {
+        font-size: 1em;
+    }
+
+    .quote {
+        font-size: 0.9em;
+    }
+
+    .text-muted {
+        font-size: 0.8em;
+    }
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
 }
