@@ -95,6 +95,10 @@ p {
     padding: 20% 0;
 }
 
+.give-me-padding2 {
+    padding: 15% 0 10%;
+}
+
 
 
 a {
@@ -894,6 +898,9 @@ body {
 
     .give-me-padding {
         padding: 10% 0;
+    }
+    .give-me-padding2 {
+        padding: 10% 0 5%;
     }
 
     .small-text {
