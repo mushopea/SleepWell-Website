@@ -55,7 +55,6 @@
 }
 
 html, body {
-    overflow-x : hidden;
 }
 
 body {
@@ -64,6 +63,7 @@ body {
     font-family: "fakt pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     background-color: #000;
+    overflow-x: hidden;
 }
 
 html {
