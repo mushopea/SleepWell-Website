@@ -849,6 +849,12 @@ body {
     max-width: 72px;
 }
 
+
+.medium-icon {
+    width: 50%;
+    max-width: 100px;
+}
+
 .read-more-link {
     color: #0083EF;
     border-bottom: 2px solid  #eee;
