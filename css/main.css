@@ -496,7 +496,13 @@ body {
 .timeline {
     list-style: none;
     padding: 0;
-    position: relative
+    position: relative;
+    display: block;
+    margin: 2em 1% 0;
+}
+
+.timeline a {
+    color: white;
 }
 
 .timeline:before {
@@ -555,7 +561,7 @@ body {
     height: 80px;
     position: absolute;
     z-index: 100;
-    background-color: #fed136;
+    background-color: #D65656;
     color: #fff;
     border-radius: 100%;
     border: 7px solid #f1f1f1;
@@ -592,19 +598,27 @@ body {
     margin-bottom: 0
 }
 
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit
+.timeline .timeline-heading p {
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
 }
 
-.timeline .timeline-heading h4.subheading {
-    text-transform: none
+.timeline-body p {
+    color: #CBCBDC;
+    font-size: 1.2em;
 }
+
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0
 }
+
+.timeline-image img {
+    width: 100% !important;
+}
+
 
 @media (min-width:768px) {
     body {
@@ -862,7 +876,7 @@ body {
 }
 
 .footer {
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 
