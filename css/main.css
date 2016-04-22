@@ -87,6 +87,11 @@ p {
 }
 
 @media(min-width:768px) {
+
+    .small-text {
+        font-size: 1em;
+    }
+
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -815,7 +820,23 @@ body {
     padding: 10% 0;
 }
 
+.top-margin {
+    margin-top: 2em;
+}
+
+.bottom-margin {
+    margin-bottom: 2em;
+}
+
 .full-image-plz img {
     width: 90%;
     margin: 0 auto;
+}
+
+.small-text {
+    margin-top: 1em;
+}
+
+.small-icon {
+    max-width: 72px;
 }
